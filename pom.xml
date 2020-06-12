@@ -32,6 +32,7 @@
 		<poi.version>3.17</poi.version>
 		<velocity.version>1.7</velocity.version>
 		<oracle.version>10.2.0.4.0</oracle.version>
+        <hutool.version>5.3.7</hutool.version>
 	</properties>
 	
     <!-- 依赖声明 -->
@@ -203,7 +204,13 @@
 	            <artifactId>ruoyi-common</artifactId>
 	            <version>${ruoyi.version}</version>
 	        </dependency>
-	        
+
+            <!-- 外部工具hutool-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

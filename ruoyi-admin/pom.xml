@@ -79,6 +79,12 @@
 			<artifactId>ojdbc14</artifactId>
 			<version>${oracle.version}</version>
 		</dependency>
+
+        <!-- 外部工具hutool-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
         
     </dependencies>
 
